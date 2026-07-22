@@ -46,7 +46,7 @@ if st.button("Find Solutions"):
         genai.configure(api_key=api_key)
 
         model = genai.GenerativeModel(
-            "gemini-1.5-flash"
+            "gemini-2.5-flash"
         )
 
         catalog = "\n".join(
